@@ -22,8 +22,16 @@ export default function Home() {
       <main className="bg-white">
         <section className="">
           <nav className="py-10 px-20 flex justify-between text-white bg-black dark:text-black dark:bg-white">
-            <h1 className="text-4xl font-autography">Noah Jina</h1>
+            <h1 className="text-5xl font-autography">Noah Jina</h1>
             <ul className="flex items-center">
+            <div className="flex text-xl gap-5 mr-10 text-white">
+              <li>About Me</li>
+              <li>Experiences</li>
+              <li>Education</li>
+              <li>Skills</li>
+              <li>Projects</li>
+              <li>Contact</li>
+            </div>
             <li className="flex"><BsTelephone className="text-2xl mr-5"/>(403) 605-6059</li>
             <div className="text-3xl flex gap-2 px-5 md:gap-3 md:px-7 lg:gap-4 lg:px-10">
               <li><a href="https://www.instagram.com/noahj_09/"><AiFillInstagram/></a></li>
@@ -116,12 +124,13 @@ export default function Home() {
             <ul>
             <li className="flex justify-center"><BsTelephone className="text-2xl mr-3"/>(403) 605-6059</li>
             <li className="text-md mt-5">njina.hba2025@ivey.ca</li>
-            <div className="text-3xl flex justify-center gap-2 mt-5 px-5 md:gap-3 md:px-7 lg:gap-4 lg:px-10">
+            <div className="text-3xl flex justify-center gap-2 mb-8 mt-5 px-5 md:gap-3 md:px-7 lg:gap-4 lg:px-10">
               <li><a href="https://www.instagram.com/noahj_09/"><AiFillInstagram/></a></li>
               <li><a href="https://www.linkedin.com/in/noahjina/"><AiFillLinkedin/></a></li>
               <li><a href="mailto:njina.hba2025@ivey.ca"><AiFillMail/></a></li>
             </div>
             </ul>
+            <a href="#" className="bg-black hover:bg-gray-700 rounded-xl text-white text-md p-4">Resume Download</a>
           </div>
         </section>
 
