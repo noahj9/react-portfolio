@@ -12,6 +12,13 @@ import background1 from '../public/background1.jpg';
 import eia from "../public/eia.svg";
 import ewb from "../public/ewb.jpeg";
 import hamptons from "../public/hamptons.jpeg";
+import img1 from "../public/img1.jpg";
+import img2 from "../public/img2.jpg";
+import img3 from "../public/img3.jpg";
+import img4 from "../public/img4.jpg";
+import img5 from "../public/img5.jpg";
+import img6 from "../public/img6.jpg";
+import img7 from "../public/img7.jpg";
 import { useState } from "react";
 import { useEffect} from "react";
 import smoothScroll from "../utils/smoothScroll";
@@ -153,8 +160,9 @@ export default function Home() {
             <h3 className="text-4xl py-4 lg:py-10 text-center w-screen bg-black text-white dark:bg-gray-300 dark:text-black">SKILLS & INTERESTS</h3>
           </div>
           <div className="grid gap-0 grid-cols-4 grid-rows-4">
+            <span><Image src={img6} className="object-cover h-100 w-100"/></span>
             <span>Sports</span>
-            <span>Music</span>
+            <span><Image src={img7} className="h-50 w-50"/></span>
             <span>Travel</span>
             <span>Photography</span>
             <span>Coding</span>
