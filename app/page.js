@@ -159,15 +159,43 @@ export default function Home() {
           <div className="">
             <h3 className="text-4xl py-4 lg:py-10 text-center w-screen bg-black text-white dark:bg-gray-300 dark:text-black">SKILLS & INTERESTS</h3>
           </div>
-          <div className="grid gap-0 grid-cols-4 grid-rows-4">
-            <span><Image src={img6} className="object-cover h-100 w-100"/></span>
-            <span>Sports</span>
-            <span><Image src={img7} className="h-50 w-50"/></span>
-            <span>Travel</span>
-            <span>Photography</span>
-            <span>Coding</span>
-            <span>Financial Markets</span>
-            <span> images</span>
+          <div className="grid gap-0 grid-cols-2 lg:grid-cols-4">
+            <span><Image src={img7} className="object-cover"/></span>
+            <span className="bg-[url('../public/background2.jpeg')] bg-cover">
+              <div className="bg-black text-white min-h-full flex justify-start items-center text-start opacity-80">
+                <ul className="mx-14">
+                  <li><h3 className="text-3xl font-mono">Sports</h3></li>
+                  <li><h2 className="text-md mt-5">Sports have been at the center of my life for as long as I can remember. I picked up hockey and golf from a young age, playing both competitively through highschool. I continue to play hockey recreationally and compete in golf during the summer months.</h2></li>
+                </ul>
+              </div>
+            </span>
+            <span><Image src={img3} className="object-cover"/></span>
+            <span className="bg-[url('../public/background3.jpg')] bg-cover">
+              <div className="bg-black text-white min-h-full flex justify-start items-center text-start opacity-80">
+                <ul className="mx-14">
+                  <li><h3 className="text-3xl font-mono">Travel</h3></li>
+                  <li><h2 className="text-md mt-5">I've been to 17 countries, 178 to go! I love seeing new places and experiencing new things. I've done a summer program in Portugal, backpacked Eastern Europe and Colombia, and visited Tanzania. All of these were amazing experiences and I am looking forward to the next adventure!</h2></li>
+                </ul>
+              </div>
+            </span>
+            <span className="bg-[url('../public/background4.jpg')] bg-cover">
+              <div className="bg-black text-white min-h-full flex justify-start items-center text-start opacity-80">
+                <ul className="mx-14">
+                  <li><h3 className="text-3xl font-mono">Coding</h3></li>
+                  <li><h2 className="text-md mt-5">Since I picked up coding 6 years ago, I have become passionate about using it to solve real-world problems. I have experience in JS, Python, and Java along with React and Django frameworks.</h2></li>
+                </ul>
+              </div>
+            </span>
+            <span><Image src={img6} className=""/></span>
+            <span className="bg-[url('../public/background5.jpg')] bg-cover">
+              <div className="bg-black text-white min-h-full flex justify-start items-center text-start opacity-80">
+                <ul className="mx-14">
+                  <li><h3 className="text-3xl font-mono">Finance</h3></li>
+                  <li><h2 className="text-md mt-5">Following the stock market has become on of my many hobbies and I has peaked my interest in quantitative finance in tandem with my software background.</h2></li>
+                </ul>
+              </div>
+            </span>
+            <span><Image src={noah_image} className="h-96 object-cover"/></span>
           </div>
         </section>
 
@@ -177,7 +205,6 @@ export default function Home() {
 
 {/* FOOTER */}
         <section id="contact" className="relative">
-          {/* <Image src={background1} className="object-none w-screen"/> */}
           <div className="bg-[url('../public/background1.jpg')] bg-cover h-96 w-screen" >
           <div className="absolute w-screen inset-x-0 inset-y-10 flex items-center justify-center text-center bg-black opacity-80 text-white dark:bg-white dark:text-black">
             <ul>
