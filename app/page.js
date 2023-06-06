@@ -8,6 +8,7 @@ import noah_image2 from '../public/noah.jpg';
 import renert from '../public/renert.png';
 import ivey from '../public/ivey.jpg';
 import western from '../public/western.gif';
+import background1 from '../public/background1.jpg'
 import { useState } from "react";
 
 export default function Home() {
@@ -70,13 +71,13 @@ export default function Home() {
           <div className="">
             <h3 className="text-4xl py-4 lg:py-10 text-center w-screen bg-black text-white dark:bg-gray-300 dark:text-black">EDUCATION</h3>
           </div>
-          <div className="flex items-center justify-center">
+          <div className="flex items-center w-screen bg-white justify-center">
             <ul className="text-black">
               <li className="py-5 flex items-center">
                 <Image src={ivey} className="object-scale-down h-30 w-20 mr-3 md:w-40"></Image>
                 <div>
                   <h6 className="text-lg">September 2022 - April 2025</h6>
-                  <h3 className="text-2xl">HBA, IVEY BUSINESS SCHOOL AT WESTERN UNIVERSITY</h3>
+                  <h3 className="text-2xl">HBA, Ivey Business School at Western University</h3>
                   <h3 className="mt-2">Currently pursuing an HBA degree with expected graduation in 2025.</h3>
                 </div>
               </li>
@@ -84,7 +85,7 @@ export default function Home() {
                 <Image src={western} className=" object-scale-down w-20 md:w-40 mr-3"></Image>
                 <div>
                   <h6 className="text-lg">September 2020 - April 2025</h6>
-                  <h3 className="text-2xl">BESc Software Engineering, WESTERN UNIVERSITY</h3>
+                  <h3 className="text-2xl">BESc Software Engineering, Western University</h3>
                   <h3 className="mt-2">Fourth year Software Engineering student. Coursework: DSA, JavaScript, Software Design</h3>
                   <h3>Dean's Honour List (2020, 2021). Nortel Engineering Distinction Scholarship. Western Scholarship of Excellence. 3.8/4.0  GPA.</h3>
                 </div>
@@ -93,7 +94,7 @@ export default function Home() {
                 <Image src={renert} className=" object-scale-down h-30 w-20 mr-3 md:w-40"></Image>
                 <div>
                   <h6 className="text-lg">September 2017 - June 2020</h6>
-                  <h3 className="text-2xl">THE RENERT SCHOOL, CALGARY</h3>
+                  <h3 className="text-2xl">The Renert School, Calgary</h3>
                   <h3 className="mt-2">Graduated in 2020 with a 97% average. AP Courses: Biology, Calculus AB</h3>
                   <h3>Sports and Clubs: Basketball, Golf, iGEM</h3>
                 </div>  
@@ -118,10 +119,12 @@ export default function Home() {
         </section>
 
 {/* FOOTER */}
-        <section className="">
-          <div className="w-screen mb-10 text-center bg-white text-black dark:bg-black dark:text-white">
-            <h3 className="text-2xl py-4 text-center">LET'S CONNECT</h3>
+        <section className="relative">
+          {/* <Image src={background1} className="object-none w-screen"/> */}
+          <div className="bg-[url('../public/background1.jpg')] bg-cover h-96 w-screen" >
+          <div className="absolute w-screen inset-x-0 inset-y-10 flex items-center justify-center text-center bg-white opacity-80 text-black dark:bg-black dark:text-white">
             <ul>
+            <h3 className="text-2xl mb-5 flex justify-center">LET'S CONNECT!</h3>
             <li className="flex justify-center"><BsTelephone className="text-2xl mr-3"/>(403) 605-6059</li>
             <li className="text-md mt-5">njina.hba2025@ivey.ca</li>
             <div className="text-3xl flex justify-center gap-2 mb-8 mt-5 px-5 md:gap-3 md:px-7 lg:gap-4 lg:px-10">
@@ -129,12 +132,16 @@ export default function Home() {
               <li><a href="https://www.linkedin.com/in/noahjina/"><AiFillLinkedin/></a></li>
               <li><a href="mailto:njina.hba2025@ivey.ca"><AiFillMail/></a></li>
             </div>
+            <li><a href='/resume.pdf' target="_blank" rel="noopener noreferrer" className="bg-black hover:bg-gray-700 rounded-xl justify-center text-white text-md p-4">Resume Download</a></li>
             </ul>
-            <a href="#" className="bg-black hover:bg-gray-700 rounded-xl text-white text-md p-4">Resume Download</a>
+           
           </div>
+          </div>
+          
+          
         </section>
 
-        <section className="bg-black text-center text-white py-5">
+        <section className="bg-black text-center w-screen text-white py-5">
           <h3>Noah Jina - 2023</h3>
         </section>
       </main>
