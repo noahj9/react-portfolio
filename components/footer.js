@@ -12,8 +12,8 @@ const footer = () => {
             <li className="flex justify-center"><BsTelephone className="text-2xl mr-3"/>(403) 605-6059</li>
             <li className="text-md mt-5">njina.hba2025@ivey.ca</li>
             <div className="text-3xl flex justify-center gap-2 mb-8 mt-5 px-5 md:gap-3 md:px-7 lg:gap-4 lg:px-10">
-              <li><a href="https://www.instagram.com/noahj_09/"><AiFillInstagram/></a></li>
-              <li><a href="https://www.linkedin.com/in/noahjina/"><AiFillLinkedin/></a></li>
+              <li><a href="https://www.instagram.com/noahj_09/" target='_blank'><AiFillInstagram/></a></li>
+              <li><a href="https://www.linkedin.com/in/noahjina/" target='_blank'><AiFillLinkedin/></a></li>
               <li><a href="mailto:njina.hba2025@ivey.ca"><AiFillMail/></a></li>
             </div>
             <li><a href='/resume.pdf' target="_blank" rel="noopener noreferrer" className="bg-blue-900 text-white dark:bg-black dark:text-white hover:bg-gray-700 rounded-xl justify-center text-md p-4">Resume Download</a></li>
