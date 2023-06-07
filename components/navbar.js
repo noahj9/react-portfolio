@@ -31,8 +31,8 @@ const Navbar = () => {
             </div>
             <li className="flex md:mt-0"><BsTelephone className="text-2xl mr-2 md:mr-5"/>(403) 605-6059</li>
             <div className="text-3xl flex gap-2 mt-4 md:mt-0 md:gap-3 md:px-7 lg:gap-4 lg:px-10">
-              <li><a href="https://www.instagram.com/noahj_09/"><AiFillInstagram/></a></li>
-              <li><a href="https://www.linkedin.com/in/noahjina/"><AiFillLinkedin/></a></li>
+              <li><a href="https://www.instagram.com/noahj_09/" target='_blank'><AiFillInstagram/></a></li>
+              <li><a href="https://www.linkedin.com/in/noahjina/" target='_blank'><AiFillLinkedin/></a></li>
               <li><a href="mailto:njina.hba2025@ivey.ca"><AiFillMail/></a></li>
             </div>
             </ul>
