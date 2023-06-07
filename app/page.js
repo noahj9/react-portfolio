@@ -191,7 +191,7 @@ export default function Home() {
               <div className="bg-black text-white min-h-full flex justify-start items-center text-start opacity-80">
                 <ul className="mx-4 lg:mx-14">
                   <li><h3 className="text-lg md:text-xl lg:text-3xl font-mono">Finance</h3></li>
-                  <li><h2 className="text-xs md:text-sm lg:text-md mt-5">Following the stock market has become on of my many hobbies and I has peaked my interest in quantitative finance in tandem with my software background.</h2></li>
+                  <li><h2 className="text-xs md:text-sm lg:text-md mt-5">Following the stock market has become on of my many hobbies and has piqued my interest in quantitative finance in tandem with my software background.</h2></li>
                 </ul>
               </div>
             </span>
@@ -200,7 +200,55 @@ export default function Home() {
         </section>
 
         <section id="projects">
-
+          <div className="bg-[url('../public/hamptons-background.jpg')] bg-cover bg-fixed">
+            <h3 className="text-4xl py-6 lg:py-20 text-center w-screen bg-transparent text-white font-bold">PROJECTS</h3>
+          </div>
+          <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-screen bg-black">
+            <div className="max-w-sm my-10 rounded-2xl overflow-hidden drop-shadow-2xl bg-white">
+              <Image className="w-full" src={img2}/>
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">StockDock Software</div>
+                <p className="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div className="px-6 pt-4 pb-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Django</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Python</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Postgres</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">DigitalOcean</span>
+              </div>
+            </div>
+            <div className="max-w-sm my-10 rounded-2xl overflow-hidden bg-white drop-shadow-2xl">
+              <Image className="w-full" src={img2}/>
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p className="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div className="px-6 pt-4 pb-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">ReactJS</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">NextJS</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Tailwind</span>
+              </div>
+            </div>
+            <div className="max-w-sm my-10 rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-2xl">
+              <Image className="w-full" src={img2}/>
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <p className="text-gray-700 text-base">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div className="px-6 pt-4 pb-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+              </div>
+            </div>
+          </div>
         </section>
 
         <Footer/>
