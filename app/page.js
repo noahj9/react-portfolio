@@ -25,6 +25,7 @@ import { useEffect} from "react";
 import smoothScroll from "../utils/smoothScroll";
 import Navbar from "../components/navbar.js";
 import Footer from "../components/footer.js";
+import FadeInElement from "../components/fadeIn";
 
 export default function Home() {
   return (
@@ -38,15 +39,16 @@ export default function Home() {
         <Navbar/>
         <section className="">
           <div className="flex pt-40 md:pt-40 lg:pt-24">
-            <div className ="basis-3/5">
-              <Image src={noah_image2} className=""/>
+            <div className ="bg-[url('../public/noah.jpg')] w-screen h-96 bg-cover bg-center bg-no-repeat md:h-screen">
+              {/* <Image src={noah_image2} className="object-cover"/> */}
+              <FadeInElement/>
             </div>
-            <div className="basis-2/5 bg-black bg-opacity-80 dark:bg-gray-200">
+            {/* <div className="bg-black bg-opacity-80 dark:bg-gray-200">
               <div className="text-white text-center dark:text-black">
                 <h2 className="text-2xl lg:text-5xl dark:text-black py-5 mt-5 lg:mt-20 font-medium">Hi, I'm Noah</h2>
                 <p className="text-sm py-5 mt-2 lg:mt-10 leading-2 mx-4">Thanks for checking out my website. Scroll down to learn more about me, my experiences, and interests. Feel free to reach out through any channel for potential opportunties or just to connect!</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
