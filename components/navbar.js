@@ -19,8 +19,8 @@ const Navbar = () => {
 
       <div className="bg-white scroll-auto w-screen">
         <section className="">
-          <nav className="fixed z-10 w-screen py-10 px-20 flex justify-between text-white bg-black dark:text-black dark:bg-white">
-            <h1 className="text-5xl flex items-center font-autography mr-20 md:mr-3">Noah Jina</h1>
+          <nav className="fixed z-10 w-screen py-10 px-10 md:px-20 flex justify-between text-white bg-black dark:text-black dark:bg-white">
+            <h1 className="text-5xl flex items-center font-autography mr-10 md:mr-3">Noah Jina</h1>
             <ul className="md:flex items-center">
             <div className="invisible md:visible flex text-xl gap-5 mr-10 text-white dark:text-black">
               <li><a href="#experiences" onClick={smoothScroll}>Experiences</a></li>
