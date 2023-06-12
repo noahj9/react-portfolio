@@ -19,6 +19,8 @@ import img4 from "../public/img4.jpg";
 import img5 from "../public/img5.jpg";
 import img6 from "../public/img6.jpg";
 import img7 from "../public/img7.jpg";
+import website from "../public/website.png";
+import stockdock from "../public/stockdock.png";
 import ar from "../public/ar.png";
 import { useState } from "react";
 import { useEffect} from "react";
@@ -203,13 +205,13 @@ export default function Home() {
           <div className="bg-[url('../public/hamptons-background.jpg')] bg-cover bg-fixed">
             <h3 className="text-4xl py-6 lg:py-20 text-center w-screen bg-transparent text-white font-bold">PROJECTS</h3>
           </div>
-          <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-screen bg-black">
-            <div className="max-w-sm my-10 rounded-2xl overflow-hidden drop-shadow-2xl bg-white">
-              <Image className="w-full" src={img2}/>
+          <div className="grid justify-items-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 w-screen bg-black">
+            <div className="max-w-md my-10 mx-5 rounded-2xl overflow-hidden drop-shadow-2xl bg-white">
+              <Image className="w-full h-60" src={stockdock}/>
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">StockDock Software</div>
                 <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  Developed a web application for a small business to manage and create internal documents. Used Django and Python and deployed the project on DigitalOcean.
                 </p>
               </div>
               <div className="px-6 pt-4 pb-2">
@@ -219,12 +221,12 @@ export default function Home() {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">DigitalOcean</span>
               </div>
             </div>
-            <div className="max-w-sm my-10 rounded-2xl overflow-hidden bg-white drop-shadow-2xl">
-              <Image className="w-full" src={img2}/>
+            <div className="max-w-md mx-5 my-10 rounded-2xl overflow-hidden bg-white drop-shadow-2xl">
+              <Image className="w-full h-60" src={website}/>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <div className="font-bold text-xl mb-2">Personal Website</div>
                 <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  Created my personal website to showcase my experiences and accomplishments. Developed using React, Tailwind, NextJS and deployed on Vercel.
                 </p>
               </div>
               <div className="px-6 pt-4 pb-2">
@@ -232,22 +234,24 @@ export default function Home() {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">ReactJS</span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">NextJS</span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Tailwind</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Vercel</span>
               </div>
             </div>
-            <div className="max-w-sm my-10 rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-2xl">
+            {/* <div className="max-w-md mx-5 my-10 rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-2xl">
               <Image className="w-full" src={img2}/>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+                <div className="font-bold text-xl mb-2">Discord Clone</div>
                 <p className="text-gray-700 text-base">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                 </p>
               </div>
               <div className="px-6 pt-4 pb-2">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MongoDB</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Express</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">ReactJS</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Node.js</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
