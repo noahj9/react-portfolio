@@ -149,7 +149,8 @@ export default function Home() {
                 <div>
                   <h6 className="text-lg">September 2017 - June 2020</h6>
                   <h3 className="text-2xl">The Renert School, Calgary</h3>
-                  <h3 className="mt-2">Graduated in 2020 with a 97% average. AP Courses: Biology, Calculus AB</h3>
+                  <h3 className="mt-2">Graduated in 2020 with a 97% average. AP Courses: Chemistry, Calculus AB</h3>
+                  <h3>University Courses: ENTI 359 (U of C), Accounting 253 (Athabasca U), CS50 (Harvard edX)</h3>
                   <h3>Sports and Clubs: Basketball, Golf, iGEM</h3>
                 </div>  
               </li>
