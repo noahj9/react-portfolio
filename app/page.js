@@ -22,6 +22,7 @@ import img7 from "../public/img7.jpg";
 import website from "../public/website.png";
 import stockdock from "../public/stockdock.png";
 import ar from "../public/ar.png";
+import ewbquiz from "../public/ewbquiz.png";
 import { useState } from "react";
 import { useEffect} from "react";
 import smoothScroll from "../utils/smoothScroll";
@@ -210,10 +211,12 @@ export default function Home() {
             <div className="max-w-md my-10 mx-5 rounded-2xl overflow-hidden drop-shadow-2xl bg-white">
               <Image className="w-full h-60" src={stockdock}/>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">StockDock Software</div>
+                <div className="font-bold text-xl mb-2"><a href="https://github.com/noahj9/PrintSoftware" target="_blank">StockDock Software</a></div>
                 <p className="text-gray-700 text-base">
                   Developed a web application for a small business to manage and create internal documents. Used Django and Python and deployed the project on DigitalOcean.
                 </p>
+                <br></br>
+                <a href="https://github.com/noahj9/PrintSoftware" target="_blank" className="underline">View Project</a>
               </div>
               <div className="px-6 pt-4 pb-2">
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Django</span>
@@ -225,10 +228,12 @@ export default function Home() {
             <div className="max-w-md mx-5 my-10 rounded-2xl overflow-hidden bg-white drop-shadow-2xl">
               <Image className="w-full h-60" src={website}/>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">Personal Website</div>
+                <div className="font-bold text-xl mb-2"><a href="https://noahjina.com" target="_blank">Personal Website</a></div>
                 <p className="text-gray-700 text-base">
                   Created my personal website to showcase my experiences and accomplishments. Developed using React, Tailwind, NextJS and deployed on Vercel.
                 </p>
+                <br></br>
+                <a href="https://noahjina.com" target="_blank" className="underline">View Project</a>
               </div>
               <div className="px-6 pt-4 pb-2">
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
@@ -238,21 +243,22 @@ export default function Home() {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Vercel</span>
               </div>
             </div>
-            {/* <div className="max-w-md mx-5 my-10 rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-2xl">
-              <Image className="w-full" src={img2}/>
+            <div className="max-w-md mx-5 my-10 rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-2xl">
+              <Image className="w-full" src={ewbquiz}/>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2">Discord Clone</div>
+                <div className="font-bold text-xl mb-2"><a href="https://ewb-western-party-alignment.web.app/" target="_blank">EWB Quiz Website</a></div>
                 <p className="text-gray-700 text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  Developed a React web application to create a quiz to help students determine which political party their opinions correlate with.
                 </p>
+                <br></br>
+                <a href="https://ewb-western-party-alignment.web.app/" target="_blank" className="underline">View Project</a>
               </div>
               <div className="px-6 pt-4 pb-2">
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MongoDB</span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Express</span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">ReactJS</span>
-                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Node.js</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Netlify</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Firebase</span>
               </div>
-            </div> */}
+            </div>
           </div>
         </section>
 
