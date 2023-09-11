@@ -23,6 +23,7 @@ import website from "../public/website.png";
 import stockdock from "../public/stockdock.png";
 import ar from "../public/ar.png";
 import ewbquiz from "../public/ewbquiz.png";
+import scottstory from "../public/scottstory.png";
 import { useState } from "react";
 import { useEffect} from "react";
 import smoothScroll from "../utils/smoothScroll";
@@ -224,7 +225,8 @@ export default function Home() {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Postgres</span>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">DigitalOcean</span>
               </div>
-            </div>
+            </div> 
+
             <div className="max-w-md mx-5 my-10 rounded-2xl overflow-hidden bg-white drop-shadow-2xl">
               <Image className="w-full h-60" src={website}/>
               <div className="px-6 py-4">
@@ -243,6 +245,7 @@ export default function Home() {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Vercel</span>
               </div>
             </div>
+
             <div className="max-w-md mx-5 my-10 rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-2xl">
               <Image className="w-full" src={ewbquiz}/>
               <div className="px-6 py-4">
@@ -259,6 +262,24 @@ export default function Home() {
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Firebase</span>
               </div>
             </div>
+
+            <div className="max-w-md mx-5 my-10 rounded-2xl overflow-hidden shadow-lg bg-white drop-shadow-2xl">
+              <Image className="w-full" src={scottstory}/>
+              <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2"><a href="https://github.com/noahj9/scottstory" target="_blank">Scottstory</a></div>
+                <p className="text-gray-700 text-base">
+                  Developed a 2D RPG game using Unity with C#. This was a group project and my first real exposure to game development and C#.
+                </p>
+                <br></br>
+                <a href="https://github.com/noahj9/scottstory" target="_blank" className="underline">View Project</a>
+              </div>
+              <div className="px-6 pt-4 pb-2">
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Unity</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">C#</span>
+                <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Design</span>
+              </div>
+            </div>
+
           </div>
         </section>
 
