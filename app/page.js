@@ -208,16 +208,16 @@ export default function Home() {
           <div className="bg-[url('../public/hamptons-background.jpg')] bg-cover bg-fixed">
             <h3 className="text-4xl py-6 lg:py-20 text-center w-screen bg-transparent text-white font-bold">PROJECTS</h3>
           </div>
-          <div className="grid justify-items-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 w-screen bg-black">
+          <div className="grid justify-items-center items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-screen bg-black">
             <div className="max-w-md my-10 mx-5 rounded-2xl overflow-hidden drop-shadow-2xl bg-white">
               <Image className="w-full h-60" src={stockdock}/>
               <div className="px-6 py-4">
-                <div className="font-bold text-xl mb-2"><a href="https://github.com/noahj9/PrintSoftware" target="_blank">StockDock Software</a></div>
+                <div className="font-bold text-xl mb-2"><a href="https://github.com/noahj9/StockDock" target="_blank">StockDock Software</a></div>
                 <p className="text-gray-700 text-base">
                   Developed a web application for a small business to manage and create internal documents. Used Django and Python and deployed the project on DigitalOcean.
                 </p>
                 <br></br>
-                <a href="https://github.com/noahj9/PrintSoftware" target="_blank" className="underline">View Project</a>
+                <a href="https://github.com/noahj9/StockDock" target="_blank" className="underline">View Project</a>
               </div>
               <div className="px-6 pt-4 pb-2">
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Django</span>
